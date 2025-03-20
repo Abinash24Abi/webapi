@@ -15,7 +15,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<EmpDbcontext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 
-
+// github change
 
 
 var app = builder.Build();
